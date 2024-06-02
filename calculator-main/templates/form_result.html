@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>результаты формы</title>
+</head>
+<body>
+    {% block content%}
+    <h1>спасибо за заполнение формы ковбой!</h1>
+    <p>Ваше имя ковбой: {{   name   }}</p>
+    <p>Ваш е mail ковбой: {{ email }}</p>
+    <p>Ваш адресс ковбой: {{ address }}</p>
+    <p>Ваша дата ковбой: {{ date }}</p>
+    {% endblock %}
+</body>
+</html>
